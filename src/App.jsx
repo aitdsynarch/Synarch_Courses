@@ -1,15 +1,18 @@
-import { useState } from 'react'
-import './App.css'
-import Home from './Home'
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css";
+import Home from "./Home";
+import JavaProgramming from "./Languages/JavaProgramming";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-    <Home/>
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/courses/java/java-fundamentals" element={<JavaProgramming />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
