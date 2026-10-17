@@ -4,18 +4,18 @@ import { ChevronDown } from "lucide-react";
 
 import ProgrammingDropdown from "./ProgrammingDropdown";
 import WebDevelopmentDropdown from "./WebDevelopmentDropdown";
-import DataScienceDropdown from "./DataScienceDropdown";
-import AIMLDropdown from "./AIMLDropdown";
-import DataAnalyticsDropdown from "./DataAnalyticsDropdown";
-import MoreDropdown from "./MoreDropdown";
+// import DataScienceDropdown from "./DataScienceDropdown";
+// import AIMLDropdown from "./AIMLDropdown";
+// import DataAnalyticsDropdown from "./DataAnalyticsDropdown";
+// import MoreDropdown from "./MoreDropdown";
 
 const categories = [
   { id: "programming", label: "Programming", Component: ProgrammingDropdown },
   { id: "web", label: "Web Development", Component: WebDevelopmentDropdown },
-  { id: "data-science", label: "Data Science", Component: DataScienceDropdown },
-  { id: "ai-ml", label: "AI & ML", Component: AIMLDropdown },
-  { id: "analytics", label: "Data Analytics", Component: DataAnalyticsDropdown },
-  { id: "more", label: "More", Component: MoreDropdown },
+  // { id: "data-science", label: "Data Science", Component: DataScienceDropdown },
+  // { id: "ai-ml", label: "AI & ML", Component: AIMLDropdown },
+  // { id: "analytics", label: "Data Analytics", Component: DataAnalyticsDropdown },
+  // { id: "more", label: "More", Component: MoreDropdown },
 ];
 
 export default function LearningCategories() {
