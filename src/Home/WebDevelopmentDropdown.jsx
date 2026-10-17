@@ -286,25 +286,7 @@ export default function WebDevelopmentDropdown() {
             ))}
           </div>
 
-          <div className="mt-8 flex flex-col justify-between gap-4 rounded-xl bg-white p-5 sm:flex-row sm:items-center">
-            <div>
-              <h4 className="font-semibold text-gray-900">
-                Start your web development journey
-              </h4>
-
-              <p className="mt-1 text-sm text-gray-500">
-                From HTML fundamentals to full-stack applications.
-              </p>
-            </div>
-
-            <a
-              href="/courses/web-development"
-              className="inline-flex shrink-0 items-center justify-center gap-2 rounded-lg bg-[#F0440A] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#D83B08]"
-            >
-              Explore All Web Courses
-              <ArrowRight size={16} />
-            </a>
-          </div>
+          
         </div>
       </div>
     </div>
