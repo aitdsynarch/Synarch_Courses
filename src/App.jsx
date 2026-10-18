@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/courses/java/java-fundamentals" element={<JavaProgramming />} />
         <Route path="/courses/web-development/html" element={<Html5 />} />
-       <Route path="getting-started" element={<GettingStarted />} />
+       <Route path="/courses/web-development/html/getting-started" element={<GettingStarted />} />
         
       </Routes>
     </BrowserRouter>
