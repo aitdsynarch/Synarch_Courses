@@ -17,15 +17,15 @@ const topics = {
     description:
       "Build responsive, accessible and interactive web experiences.",
     items: [
-      ["HTML", "html"],
-      ["CSS", "css"],
-      ["JavaScript", "javascript"],
-      ["Responsive Design", "responsive-design"],
-      ["Tailwind CSS", "tailwind-css"],
-      ["DOM Manipulation", "dom-manipulation"],
-      ["Web Accessibility", "web-accessibility"],
-      ["UI Fundamentals", "ui-fundamentals"],
-      ["Frontend Projects", "frontend-projects"],
+      ["HTML", "/courses/web-development/html"],
+      ["CSS", "/courses/web-development/css"],
+      ["JavaScript", "/courses/web-development/javascript"],
+      ["Responsive Design", "/courses/web-development/responsive-design"],
+      ["Tailwind CSS", "/courses/web-development/tailwind-css"],
+      ["DOM Manipulation", "/courses/web-development/dom-manipulation"],
+      ["Web Accessibility", "/courses/web-development/web-accessibility"],
+      ["UI Fundamentals", "/courses/web-development/ui-fundamentals"],
+      ["Frontend Projects", "/courses/web-development/frontend-projects"],
     ],
   },
 
@@ -34,15 +34,15 @@ const topics = {
     description:
       "Build APIs, manage databases and develop server-side applications.",
     items: [
-      ["Node.js", "node-js"],
-      ["Express.js", "express-js"],
-      ["REST APIs", "rest-apis"],
-      ["Authentication", "authentication"],
-      ["MongoDB", "mongodb"],
-      ["SQL Databases", "sql-databases"],
-      ["API Security", "api-security"],
-      ["File Uploads", "file-uploads"],
-      ["Backend Projects", "backend-projects"],
+      ["Node.js", "/courses/web-development/node-js"],
+      ["Express.js", "/courses/web-development/express-js"],
+      ["REST APIs", "/courses/web-development/rest-apis"],
+      ["Authentication", "/courses/web-development/authentication"],
+      ["MongoDB", "/courses/web-development/mongodb"],
+      ["SQL Databases", "/courses/web-development/sql-databases"],
+      ["API Security", "/courses/web-development/api-security"],
+      ["File Uploads", "/courses/web-development/file-uploads"],
+      ["Backend Projects", "/courses/web-development/backend-projects"],
     ],
   },
 
@@ -51,15 +51,15 @@ const topics = {
     description:
       "Connect frontend interfaces, backend services and databases.",
     items: [
-      ["MERN Stack", "mern-stack"],
-      ["Frontend Integration", "frontend-integration"],
-      ["Database Integration", "database-integration"],
-      ["JWT Authentication", "jwt-authentication"],
-      ["State Management", "state-management"],
-      ["Full Stack Architecture", "full-stack-architecture"],
-      ["Deployment", "deployment"],
-      ["Environment Variables", "environment-variables"],
-      ["Full Stack Projects", "full-stack-projects"],
+      ["MERN Stack", "/courses/web-development/mern-stack"],
+      ["Frontend Integration", "/courses/web-development/frontend-integration"],
+      ["Database Integration", "/courses/web-development/database-integration"],
+      ["JWT Authentication", "/courses/web-development/jwt-authentication"],
+      ["State Management", "/courses/web-development/state-management"],
+      ["Full Stack Architecture", "/courses/web-development/full-stack-architecture"],
+      ["Deployment", "/courses/web-development/deployment"],
+      ["Environment Variables", "/courses/web-development/environment-variables"],
+      ["Full Stack Projects", "/courses/web-development/full-stack-projects"],
     ],
   },
 
@@ -68,15 +68,15 @@ const topics = {
     description:
       "Explore popular libraries and frameworks for modern web development.",
     items: [
-      ["React.js", "react-js"],
-      ["Next.js", "next-js"],
-      ["Vue.js", "vue-js"],
-      ["Angular", "angular"],
-      ["Svelte", "svelte"],
-      ["Express.js", "express-js"],
-      ["Bootstrap", "bootstrap"],
-      ["Framer Motion", "framer-motion"],
-      ["Framework Projects", "framework-projects"],
+      ["React.js", "/courses/web-development/react-js"],
+      ["Next.js", "/courses/web-development/next-js"],
+      ["Vue.js", "/courses/web-development/vue-js"],
+      ["Angular", "/courses/web-development/angular"],
+      ["Svelte", "/courses/web-development/svelte"],
+      ["Express.js", "/courses/web-development/express-js"],
+      ["Bootstrap", "/courses/web-development/bootstrap"],
+      ["Framer Motion", "/courses/web-development/framer-motion"],
+      ["Framework Projects", "/courses/web-development/framework-projects"],
     ],
   },
 
@@ -85,35 +85,35 @@ const topics = {
     description:
       "Master the tools and workflows used by professional developers.",
     items: [
-      ["Git", "git"],
-      ["GitHub", "github"],
-      ["VS Code", "vs-code"],
-      ["npm", "npm"],
-      ["Browser DevTools", "browser-devtools"],
-      ["Postman", "postman"],
-      ["Vite", "vite"],
-      ["Deployment Platforms", "deployment-platforms"],
-      ["Developer Workflow", "developer-workflow"],
+      ["Git", "/courses/web-development/git"],
+      ["GitHub", "/courses/web-development/github"],
+      ["VS Code", "/courses/web-development/vs-code"],
+      ["npm", "/courses/web-development/npm"],
+      ["Browser DevTools", "/courses/web-development/browser-devtools"],
+      ["Postman", "/courses/web-development/postman"],
+      ["Vite", "/courses/web-development/vite"],
+      ["Deployment Platforms", "/courses/web-development/deployment-platforms"],
+      ["Developer Workflow", "/courses/web-development/developer-workflow"],
     ],
   },
 
   roadmaps: {
     heading: "Development Roadmaps",
     description:
-      "Follow structured, step-by-step roadmaps for every web development stack.",
+      "Follow structured, step-by-step roadmaps for web development.",
     items: [
-      ["Frontend Roadmap", "frontend-roadmap"],
-      ["Backend Roadmap", "backend-roadmap"],
-      ["Full Stack Roadmap", "full-stack-roadmap"],
-      ["MERN Stack Roadmap", "mern-stack-roadmap"],
-      ["React.js Roadmap", "react-roadmap"],
-      ["Next.js Roadmap", "nextjs-roadmap"],
-      ["Node.js Roadmap", "nodejs-roadmap"],
-      ["Python Backend Roadmap", "python-backend-roadmap"],
-      ["Java Backend Roadmap", "java-backend-roadmap"],
-      ["Web Design Roadmap", "web-design-roadmap"],
-      ["DevOps for Web Developers", "web-devops-roadmap"],
-      ["Web Development Interview Roadmap", "web-interview-roadmap"],
+      ["Frontend Roadmap", "/courses/web-development/frontend-roadmap"],
+      ["Backend Roadmap", "/courses/web-development/backend-roadmap"],
+      ["Full Stack Roadmap", "/courses/web-development/full-stack-roadmap"],
+      ["MERN Stack Roadmap", "/courses/web-development/mern-stack-roadmap"],
+      ["React.js Roadmap", "/courses/web-development/react-roadmap"],
+      ["Next.js Roadmap", "/courses/web-development/nextjs-roadmap"],
+      ["Node.js Roadmap", "/courses/web-development/nodejs-roadmap"],
+      ["Python Backend Roadmap", "/courses/web-development/python-backend-roadmap"],
+      ["Java Backend Roadmap", "/courses/web-development/java-backend-roadmap"],
+      ["Web Design Roadmap", "/courses/web-development/web-design-roadmap"],
+      ["DevOps for Web Developers", "/courses/web-development/web-devops-roadmap"],
+      ["Web Development Interview Roadmap", "/courses/web-development/web-interview-roadmap"],
     ],
   },
 };
@@ -151,7 +151,7 @@ export default function WebDevelopmentDropdown() {
             return (
               <div
                 key={category.id}
-                className={`overflow-hidden rounded-xl border transition-colors ${
+                className={`overflow-hidden border transition-colors ${
                   isOpen
                     ? "border-orange-200 bg-white"
                     : "border-gray-200 bg-white/60"
@@ -184,11 +184,11 @@ export default function WebDevelopmentDropdown() {
                     </p>
 
                     <div className="space-y-1">
-                      {categoryData.items.map(([label, slug]) => (
+                      {categoryData.items.map(([label, path]) => (
                         <a
-                          key={slug}
-                          href={`/courses/web-development/${slug}`}
-                          className="group flex items-center justify-between gap-3 rounded-lg px-3 py-3 text-sm text-gray-700 transition-colors hover:bg-orange-50 hover:text-[#F0440A]"
+                          key={path}
+                          href={path}
+                          className="group flex items-center justify-between gap-3 px-3 py-3 text-sm text-gray-700 transition-colors hover:bg-orange-50 hover:text-[#F0440A]"
                         >
                           <span>{label}</span>
                           <ArrowRight
@@ -207,7 +207,7 @@ export default function WebDevelopmentDropdown() {
 
         <a
           href="/courses/web-development"
-          className="mt-4 flex items-center justify-center gap-2 rounded-xl bg-[#F0440A] px-4 py-3.5 text-sm font-semibold text-white transition hover:bg-[#D83B08]"
+          className="mt-4 flex items-center justify-center gap-2 bg-[#F0440A] px-4 py-3.5 text-sm font-semibold text-white transition hover:bg-[#D83B08]"
         >
           Explore All Web Courses
           <ArrowRight size={16} />
@@ -232,7 +232,7 @@ export default function WebDevelopmentDropdown() {
                   onMouseEnter={() => setActiveCategory(category.id)}
                   onFocus={() => setActiveCategory(category.id)}
                   onClick={() => setActiveCategory(category.id)}
-                  className={`group flex w-full items-center justify-between gap-2 rounded-lg px-3 py-3 text-left text-sm transition-all ${
+                  className={`group flex w-full items-center justify-between gap-2 px-3 py-3 text-left text-sm transition-all ${
                     isActive
                       ? "bg-white font-semibold text-[#F0440A] shadow-sm"
                       : "text-gray-700 hover:bg-white/70 hover:text-[#F0440A]"
@@ -270,10 +270,10 @@ export default function WebDevelopmentDropdown() {
           </div>
 
           <div className="grid grid-cols-1 gap-x-8 gap-y-1 sm:grid-cols-2 lg:grid-cols-3">
-            {activeData.items.map(([label, slug]) => (
+            {activeData.items.map(([label, path]) => (
               <a
-                key={slug}
-                href={`/courses/web-development/${slug}`}
+                key={path}
+                href={path}
                 className="group flex min-h-12 items-center justify-between gap-3 border-b border-gray-200/70 py-3 text-sm text-gray-700 transition-colors hover:text-[#F0440A]"
               >
                 <span>{label}</span>
@@ -285,8 +285,6 @@ export default function WebDevelopmentDropdown() {
               </a>
             ))}
           </div>
-
-          
         </div>
       </div>
     </div>
